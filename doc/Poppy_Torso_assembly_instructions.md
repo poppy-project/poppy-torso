@@ -1,0 +1,44 @@
+# Poppy Torso assembly instructions
+
+
+
+## 1- Torso
+
+### [1.1- Trunk assembly](//github.com/poppy-project/Poppy-multiarticulated-torso/blob/master/doc/en/5_DoFs_humanoid_spine.md)
+### [1.2- Right arm assembly](//github.com/poppy-project/Poppy-basic-arms/blob/master/doc/right_arm_assembly_instructions.md)
+### [1.3- Left arm assembly](//github.com/poppy-project/Poppy-basic-arms/blob/master/doc/left_arm_assembly_instructions.md)
+
+### 1.4 Assemble trunk and arms:
+
+- Preparation: 5 min
+- Assembly: 15-20 min
+
+#### 1.4.1 Requirement
+
+![](img/poppy_torso_assembly_BOM.jpg)
+
+**Sub-assemblies:**
+- Trunk
+- Left arm
+- Right arm
+
+**3D printed parts:**
+- Left shoulder
+- right shoulder
+
+**Cables:**
+- 2x 3P 200mm
+
+**Robotis parts:**
+- 48x Bolts M2x3
+
+**Motor configuration:**
+- 1x Alimentation 12V
+- 1x SMPS2Dynamixel
+- 1x USB2Dynamixel or USB2AX
+- A computer...
+
+#### 1.4.2 video instructions:
+Click on the image below to display the video:
+
+[![video](http://img.youtube.com/vi/uDhLIS3vxM4/0.jpg)](http://youtu.be/uDhLIS3vxM4)
