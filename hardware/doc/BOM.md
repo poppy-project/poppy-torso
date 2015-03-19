@@ -60,8 +60,8 @@
 
 
 ### Custom
+TODO
 
-To complete
 ----------
 
 
@@ -72,10 +72,8 @@ To complete
  -  2 x AX-12A
 
 ### Parts
-- 19x HN07-N101 set
-- 12x HN07-i101 Set
-- 4x HN05-N102 Set
-- 4x HN05-i101 Set
+- 11x HN07-N101 set
+- 6x HN07-i101 Set
 
 ### Visserie:
 - 1x  Wrench Bolt M2*3 (200 pcs)
