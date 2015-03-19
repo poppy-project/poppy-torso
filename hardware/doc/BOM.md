@@ -1,4 +1,4 @@
-# Poppy Humanoid 1.0 pre-release
+# Poppy Torso 1.0
 
 ## 3D printing
 
