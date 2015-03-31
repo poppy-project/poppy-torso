@@ -1,0 +1,2 @@
+include poppy_torso/configuration/*.json
+include poppy_torso/vrep-scene/*.ttt
