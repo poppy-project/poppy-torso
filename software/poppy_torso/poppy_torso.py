@@ -42,7 +42,7 @@ class PoppyTorso(AbstractPoppyCreature):
     @classmethod
     def vrep_hack(cls, robot):
         # fix vrep orientation bug
-        wrong_motor = [robot.abs_x, robot.bust_x]
+        wrong_motor = [robot.bust_x, ]
 
         for m in wrong_motor:
             m.direct = not m.direct
