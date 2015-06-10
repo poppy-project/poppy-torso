@@ -36,7 +36,6 @@ class SimpleBodyBeatMotion(pypot.primitive.LoopPrimitive):
         self.robot.head_z.goal_position = sinus(amp / 2.0, t, freq / 2.0)
 
         self.robot.bust_x.goal_position = sinus(amp / 6.0, t, freq / 2.0) + sinus(amp / 6.0, t, freq / 4.0)
-        self.robot.abs_x.goal_position = - sinus(amp / 8.0, t, freq / 4.0) + sinus(amp / 6.0, t, freq / 4.0)
 
         self.robot.l_shoulder_y.goal_position = sinus(amp / 3.0, t, freq / 2.0)
         self.robot.r_shoulder_y.goal_position = - sinus(amp / 3.0, t, freq / 2.0)
