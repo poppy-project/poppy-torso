@@ -1,10 +1,11 @@
 import numpy
+import os
 
 from functools import partial
 
 from poppy.creatures import AbstractPoppyCreature
 
-from .primitives.safe import LimitTorque
+from .primitives.safe import LimitTorque, TemperatureMonitor
 from .primitives.dance import SimpleBodyBeatMotion
 #from .primitives.posture import StandPosition, SitPosition
 from .primitives.idle import UpperBodyIdleMotion, HeadIdleMotion
