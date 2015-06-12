@@ -39,7 +39,7 @@
   },
   "motors": {
     "l_elbow_y": {
-      "offset": 0.0,
+      "offset": -90.0,
       "type": "MX-28",
       "id": 44,
       "angle_limit": [
@@ -99,7 +99,7 @@
       "orientation": "indirect"
     },
     "r_elbow_y": {
-      "offset": 0.0,
+      "offset": -90.0,
       "type": "MX-28",
       "id": 54,
       "angle_limit": [
