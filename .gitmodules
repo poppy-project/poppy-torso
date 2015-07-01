@@ -1,6 +1,6 @@
 [submodule "hardware/robotis_library"]
 	path = hardware/robotis_library
-	url = https://github.com/matthieu-lapeyre/Robotis-library
+url=https://github.com/poppy-project/Robotis-library
 [submodule "hardware/head"]
 	path = hardware/head
 	url = https://github.com/poppy-project/Poppy-minimal-head-design.git
