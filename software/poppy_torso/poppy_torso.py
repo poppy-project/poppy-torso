@@ -20,7 +20,7 @@ class PoppyTorso(AbstractPoppyCreature):
         if robot.simulated:
             cls.vrep_hack(robot)
         for m in robot.motors:
-            m.compliant_behavior = 'safe'
+            m.compliant_behavior = 'dummy'
             m.goto_behavior = 'minjerk'
 
 
