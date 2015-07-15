@@ -18,7 +18,7 @@ setup(name='poppy-torso',
       version=version(),
       packages=find_packages(),
 
-      install_requires=['poppy-creature >= 1.1',
+      install_requires=['poppy-creature >= 1.6.0',
                         'pypot >= 2.7.0'],
 
       setup_requires=['setuptools_git >= 0.3', ],
