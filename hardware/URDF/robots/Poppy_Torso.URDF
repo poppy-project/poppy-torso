@@ -9,7 +9,7 @@
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/base_visual.STL"></mesh>
+				<mesh filename="package://meshes/base_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -18,20 +18,20 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/base_respondable.STL"></mesh>
+				<mesh filename="package://meshes/base_respondable.STL"></mesh>
 			</geometry>
 		</collision>
 	</link>
 	<link name="spine">
 		<inertial>
-			<origin xyz="-2.40404181622888E-07 0.0288451670610555 -0.0100975116173431" rpy="0 0 0"></origin>
-			<mass value="0.0926815111299683"></mass>
-			<inertia ixx="3.84763921301561E-05" ixy="-1.20593718688982E-09" ixz="-2.38686853561089E-10" iyy="2.73205150040803E-05" iyz="1.47490193478348E-06" izz="3.26595229928866E-05"></inertia>
+			<origin xyz="-2.40411891850495E-07 0.0288451667347867 -0.0100975118547382" rpy="0 0 0"></origin>
+			<mass value="0.0926815106655512"></mass>
+			<inertia ixx="3.84763910015325E-05" ixy="-1.20593001730888E-09" ixz="-2.38589260905183E-10" iyy="2.7320514654861E-05" iyz="1.47490149318973E-06" izz="3.26595211965373E-05"></inertia>
 		</inertial>
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/spine_visual.STL"></mesh>
+				<mesh filename="package://meshes/spine_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -40,20 +40,21 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/spine_respondable.STL"></mesh>
+				<mesh filename="package://meshes/spine_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.09264</mass>
 	</link>
 	<link name="bust_motors">
 		<inertial>
-			<origin xyz="3.50872352602193E-05 0.0105220286991919 -0.0174331454397802" rpy="0 0 0"></origin>
-			<mass value="0.158876054417129"></mass>
-			<inertia ixx="0.000100953682916" ixy="-3.89105329887544E-07" ixz="9.71750445341545E-08" iyy="8.94288407127088E-05" iyz="-1.31738248300944E-06" izz="4.2622597249744E-05"></inertia>
+			<origin xyz="3.50872416629779E-05 0.0105220286877652 -0.0174331453843439" rpy="0 0 0"></origin>
+			<mass value="0.158876054570625"></mass>
+			<inertia ixx="0.000100953683249293" ixy="-3.89105307189684E-07" ixz="9.71749941401585E-08" iyy="8.94288410563621E-05" iyz="-1.31738255727689E-06" izz="4.26225972692235E-05"></inertia>
 		</inertial>
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/bust_visual.STL"></mesh>
+				<mesh filename="package://meshes/bust_motors_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -62,20 +63,21 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/bust_respondable.STL"></mesh>
+				<mesh filename="package://meshes/bust_motors_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.15889</mass>
 	</link>
 	<link name="chest">
 		<inertial>
-			<origin xyz="2.16502093708977E-06 0.051494834637487 -0.0105461658967885" rpy="0 0 0"></origin>
-			<mass value="0.262924546647766"></mass>
-			<inertia ixx="0.000154596138060618" ixy="2.37341792243603E-08" ixz="-2.3634491566554E-08" iyy="0.000750952678880381" iyz="1.53507486626421E-06" izz="0.000688551029698055"></inertia>
+			<origin xyz="2.35256459143538E-06 0.0514948183080913 -0.0105463056982622" rpy="0 0 0"></origin>
+			<mass value="0.262925523172723"></mass>
+			<inertia ixx="0.000154597294293882" ixy="2.32304239504647E-08" ixz="-2.47140128362103E-08" iyy="0.000750952782458072" iyz="1.53530143139102E-06" izz="0.000688549998744818"></inertia>
 		</inertial>
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/chest_visual.STL"></mesh>
+				<mesh filename="package://meshes/chest_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -84,20 +86,21 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/chest_respondable.STL"></mesh>
+				<mesh filename="package://meshes/chest_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.27528</mass>
 	</link>
 	<link name="neck">
 		<inertial>
-			<origin xyz="-0.00147486363079189 0.00928455262636607 2.89600753380741E-06" rpy="0 0 0"></origin>
-			<mass value="0.00588496516988366"></mass>
-			<inertia ixx="7.25596636570398E-07" ixy="-9.29944216419528E-08" ixz="2.01438227026043E-10" iyy="2.33535976458608E-06" iyz="1.55383710790991E-11" izz="2.57395421284165E-06"></inertia>
+			<origin xyz="-0.00147486363077957 0.00928455262636602 2.89600749219313E-06" rpy="0 0 0"></origin>
+			<mass value="0.00588496516988365"></mass>
+			<inertia ixx="7.25596636570396E-07" ixy="-9.29944216419538E-08" ixz="2.01438227027406E-10" iyy="2.33535976458607E-06" iyz="1.55383710797264E-11" izz="2.57395421284165E-06"></inertia>
 		</inertial>
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/neck_visual.STL"></mesh>
+				<mesh filename="package://meshes/neck_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -106,20 +109,21 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/neck_respondable.STL"></mesh>
+				<mesh filename="package://meshes/neck_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.00588</mass>
 	</link>
 	<link name="head">
 		<inertial>
-			<origin xyz="0.000557192931260033 0.0327428210753856 -0.0132526703496143" rpy="0 0 0"></origin>
-			<mass value="0.188564677402165"></mass>
-			<inertia ixx="0.000353349276053432" ixy="-2.18551305410159E-07" ixz="4.10859195006433E-06" iyy="0.000384594393505883" iyz="-2.16688817868271E-05" izz="0.000396655887789427"></inertia>
+			<origin xyz="0.000557544173188459 0.0327437693305889 -0.0132545775103434" rpy="0 0 0"></origin>
+			<mass value="0.188564323997503"></mass>
+			<inertia ixx="0.000353329921483274" ixy="-2.17595216032547E-07" ixz="4.10678991843685E-06" iyy="0.000384587155295662" iyz="-2.16656424152966E-05" izz="0.000396626339401006"></inertia>
 		</inertial>
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/head_visual.STL"></mesh>
+				<mesh filename="package://meshes/head_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -128,108 +132,21 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/head_respondable.STL"></mesh>
+				<mesh filename="package://meshes/head_respondable.STL"></mesh>
 			</geometry>
 		</collision>
-	</link>
-	<link name="r_shoulder">
-		<inertial>
-			<origin xyz="-0.0104831289118898 0.00172612373293796 -0.00916606535277945" rpy="0 0 0"></origin>
-			<mass value="0.00848189595252892"></mass>
-			<inertia ixx="3.40574053037303E-06" ixy="4.48539910128384E-08" ixz="-3.01050409281427E-08" iyy="3.57000945450025E-06" iyz="1.16024799669592E-08" izz="1.85571705062299E-06"></inertia>
-		</inertial>
-		<visual>
-			<origin xyz="0 0 0" rpy="0 0 0"></origin>
-			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/r_shoulder_visual.STL"></mesh>
-			</geometry>
-			<material name="">
-				<color rgba="0.9 0.9 0.9 1.0"></color>
-			</material>
-		</visual>
-		<collision>
-			<origin xyz="0 0 0" rpy="0 0 0"></origin>
-			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/r_shoulder_respondable.STL"></mesh>
-			</geometry>
-		</collision>
-	</link>
-	<link name="r_shoulder_motor">
-		<inertial>
-			<origin xyz="2.24524859149255E-07 -0.0125756770887728 -0.0085982551689308" rpy="0 0 0"></origin>
-			<mass value="0.0828144642064673"></mass>
-			<inertia ixx="2.76486436455355E-05" ixy="-1.31703554080169E-10" ixz="-6.69095857944708E-10" iyy="1.6442799920461E-05" iyz="7.2340141547735E-07" izz="2.26416495770308E-05"></inertia>
-		</inertial>
-		<visual>
-			<origin xyz="0 0 0" rpy="0 0 0"></origin>
-			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/r_shoulder_motor_visual.STL"></mesh>
-			</geometry>
-			<material name="">
-				<color rgba="0.9 0.9 0.9 1.0"></color>
-			</material>
-		</visual>
-		<collision>
-			<origin xyz="0 0 0" rpy="0 0 0"></origin>
-			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/r_shoulder_motor_respondable.STL"></mesh>
-			</geometry>
-		</collision>
-	</link>
-	<link name="r_upper_arm">
-		<inertial>
-			<origin xyz="-3.32548713521223E-05 0.0628256242258387 -0.0106376027333001" rpy="0 0 0"></origin>
-			<mass value="0.16814085957724"></mass>
-			<inertia ixx="0.000280827719414285" ixy="-6.03127767269455E-07" ixz="-3.86325402336742E-09" iyy="4.23293497956197E-05" iyz="3.11054354485249E-06" izz="0.00027591619563535"></inertia>
-		</inertial>
-		<visual>
-			<origin xyz="0 0 0" rpy="0 0 0"></origin>
-			<geometry>
-				<mesh filename="package://meshes/r_upper_arm_visual.STL"></mesh>
-			</geometry>
-			<material name="">
-				<color rgba="0.9 0.9 0.9 1.0"></color>
-			</material>
-		</visual>
-		<collision>
-			<origin xyz="0 0 0" rpy="0 0 0"></origin>
-			<geometry>
-				<mesh filename="package://meshes/r_upper_arm_respondable.STL"></mesh>
-			</geometry>
-		</collision>
-	</link>
-	<link name="r_forearm">
-		<inertial>
-			<origin xyz="-0.00691609004843832 -0.107157207279582 -0.00498971449145198" rpy="0 0 0"></origin>
-			<mass value="0.0486519712384455"></mass>
-			<inertia ixx="0.000185810284946174" ixy="7.32306439524687E-06" ixz="-9.09571193441087E-08" iyy="1.51060987356639E-05" iyz="-1.35871780134915E-05" izz="0.00018275371059442"></inertia>
-		</inertial>
-		<visual>
-			<origin xyz="0 0 0" rpy="0 0 0"></origin>
-			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/r_forearm_visual.STL"></mesh>
-			</geometry>
-			<material name="">
-				<color rgba="0.9 0.9 0.9 1.0"></color>
-			</material>
-		</visual>
-		<collision>
-			<origin xyz="0 0 0" rpy="0 0 0"></origin>
-			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/r_forearm_respondable.STL"></mesh>
-			</geometry>
-		</collision>
+		<mass>0.2126</mass>
 	</link>
 	<link name="l_shoulder">
 		<inertial>
-			<origin xyz="0.0105107550364721 0.00179804682433171 -0.00915203083390112" rpy="0 0 0"></origin>
-			<mass value="0.00843598833388653"></mass>
-			<inertia ixx="3.39606842476909E-06" ixy="-4.79548412692014E-08" ixz="2.95433304950035E-08" iyy="3.56726040974559E-06" iyz="1.00379140238948E-08" izz="1.84634802704217E-06"></inertia>
+			<origin xyz="0.0105246491971973 0.00179805316216127 -0.00915201992957032" rpy="0 0 0"></origin>
+			<mass value="0.00843598968780806"></mass>
+			<inertia ixx="3.39606863056539E-06" ixy="-4.79545875245114E-08" ixz="2.95435354929514E-08" iyy="3.56726082486902E-06" iyz="1.00382310579659E-08" izz="1.84634806401887E-06"></inertia>
 		</inertial>
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/l_shoulder_visual.STL"></mesh>
+				<mesh filename="package://meshes/l_shoulder_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -238,20 +155,21 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/l_shoulder_respondable.STL"></mesh>
+				<mesh filename="package://meshes/l_shoulder_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.00838</mass>
 	</link>
 	<link name="l_shoulder_motor">
 		<inertial>
-			<origin xyz="2.25557890282113E-07 -0.0125756747635647 -0.00859825840421122" rpy="0 0 0"></origin>
-			<mass value="0.082814411658021"></mass>
-			<inertia ixx="2.7648623312469E-05" ixy="-1.32234083145181E-10" ixz="-6.69084913308621E-10" iyy="1.64427861876741E-05" iyz="7.23399382479451E-07" izz="2.26416366114375E-05"></inertia>
+			<origin xyz="2.25562237481797E-07 0.0125756739553211 0.00859826040204853" rpy="0 0 0"></origin>
+			<mass value="0.0828144098443214"></mass>
+			<inertia ixx="2.76486208811411E-05" ixy="1.32207552337974E-10" ixz="6.6889770978984E-10" iyy="1.64427853426986E-05" iyz="7.23401723852699E-07" izz="2.26416351010788E-05"></inertia>
 		</inertial>
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/l_shoulder_motor_visual.STL"></mesh>
+				<mesh filename="package://meshes/l_shoulder_motor_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -260,9 +178,10 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/l_shoulder_motor_respondable.STL"></mesh>
+				<mesh filename="package://meshes/l_shoulder_motor_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.08288</mass>
 	</link>
 	<link name="l_upper_arm">
 		<inertial>
@@ -285,17 +204,18 @@
 				<mesh filename="package://meshes/l_upper_arm_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.16814</mass>
 	</link>
 	<link name="l_forearm">
 		<inertial>
-			<origin xyz="0.00691508667512003 -0.107157301013597 -0.00499027850392402" rpy="0 0 0"></origin>
-			<mass value="0.0486517775557926"></mass>
-			<inertia ixx="0.000185803987345629" ixy="-7.31676533662061E-06" ixz="8.9803476607652E-08" iyy="1.51052658275603E-05" iyz="-1.35881066977447E-05" izz="0.000182746088047765"></inertia>
+			<origin xyz="0.00691480023011085 0.10715758721324 0.00499021473883754" rpy="0 0 0"></origin>
+			<mass value="0.0486512481725727"></mass>
+			<inertia ixx="0.000185803541823861" ixy="7.31763110936326E-06" ixz="-9.0080655878687E-08" iyy="1.51053240271383E-05" iyz="-1.35878077941956E-05" izz="0.000182745910584552"></inertia>
 		</inertial>
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/l_forearm_visual.STL"></mesh>
+				<mesh filename="package://meshes/l_forearm_visual.STL"></mesh>
 			</geometry>
 			<material name="">
 				<color rgba="0.9 0.9 0.9 1.0"></color>
@@ -304,9 +224,102 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0"></origin>
 			<geometry>
-				<mesh filename="package://Poppy_Torso/meshes/l_forearm_respondable.STL"></mesh>
+				<mesh filename="package://meshes/l_forearm_respondable.STL"></mesh>
 			</geometry>
 		</collision>
+		<mass>0.04863</mass>
+	</link>
+	<link name="r_shoulder">
+		<inertial>
+			<origin xyz="-0.0104970276721559 0.00172611065393897 -0.00916610067254806" rpy="0 0 0"></origin>
+			<mass value="0.00848189714003649"></mass>
+			<inertia ixx="3.40574097306283E-06" ixy="4.48540328143448E-08" ixz="-3.01046953764439E-08" iyy="3.57001060355875E-06" iyz="1.1601962064402E-08" izz="1.85571692853151E-06"></inertia>
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0"></origin>
+			<geometry>
+				<mesh filename="package://meshes/r_shoulder_visual.STL"></mesh>
+			</geometry>
+			<material name="">
+				<color rgba="0.9 0.9 0.9 1.0"></color>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0"></origin>
+			<geometry>
+				<mesh filename="package://meshes/r_shoulder_respondable.STL"></mesh>
+			</geometry>
+		</collision>
+		<mass>0.00838</mass>
+	</link>
+	<link name="r_shoulder_motor">
+		<inertial>
+			<origin xyz="2.25562237481797E-07 0.0125756739553211 0.00859826040204864" rpy="0 0 0"></origin>
+			<mass value="0.0828144098443213"></mass>
+			<inertia ixx="2.76486208811411E-05" ixy="1.32207552352561E-10" ixz="6.68897709796528E-10" iyy="1.64427853426986E-05" iyz="7.23401723852708E-07" izz="2.26416351010787E-05"></inertia>
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0"></origin>
+			<geometry>
+				<mesh filename="package://meshes/r_shoulder_motor_visual.STL"></mesh>
+			</geometry>
+			<material name="">
+				<color rgba="0.9 0.9 0.9 1.0"></color>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0"></origin>
+			<geometry>
+				<mesh filename="package://meshes/r_shoulder_motor_respondable.STL"></mesh>
+			</geometry>
+		</collision>
+		<mass>0.08288</mass>
+	</link>
+	<link name="r_upper_arm">
+		<inertial>
+			<origin xyz="-3.32548713521223E-05 0.0628256242258387 -0.0106376027333001" rpy="0 0 0"></origin>
+			<mass value="0.16814085957724"></mass>
+			<inertia ixx="0.000280827719414285" ixy="-6.03127767269455E-07" ixz="-3.86325402336742E-09" iyy="4.23293497956197E-05" iyz="3.11054354485249E-06" izz="0.00027591619563535"></inertia>
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0"></origin>
+			<geometry>
+				<mesh filename="package://meshes/r_upper_arm_visual.STL"></mesh>
+			</geometry>
+			<material name="">
+				<color rgba="0.9 0.9 0.9 1.0"></color>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0"></origin>
+			<geometry>
+				<mesh filename="package://meshes/r_upper_arm_respondable.STL"></mesh>
+			</geometry>
+		</collision>
+		<mass>0.16814</mass>
+	</link>
+	<link name="r_forearm">
+		<inertial>
+			<origin xyz="-0.00691618587524222 0.107157908858058 0.00498983982891094" rpy="0 0 0"></origin>
+			<mass value="0.0486511084909604"></mass>
+			<inertia ixx="0.000185805096233415" ixy="-7.3225450436654E-06" ixz="9.10153472751173E-08" iyy="1.51060270748784E-05" iyz="-1.35866305828973E-05" izz="0.000182748555542486"></inertia>
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0"></origin>
+			<geometry>
+				<mesh filename="package://meshes/r_forearm_visual.STL"></mesh>
+			</geometry>
+			<material name="">
+				<color rgba="0.9 0.9 0.9 1.0"></color>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0"></origin>
+			<geometry>
+				<mesh filename="package://meshes/r_forearm_respondable.STL"></mesh>
+			</geometry>
+		</collision>
+		<mass>0.04863</mass>
 	</link>
 	<joint name="abs_z" type="revolute">
 		<origin xyz="0 0 0.08965" rpy="1.5708 1.1258E-18 0.018388"></origin>
@@ -320,7 +333,7 @@
 		<parent link="spine"></parent>
 		<child link="bust_motors"></child>
 		<axis xyz="-1 0 0"></axis>
-		<limit effort="3.1" lower="-0.802851455917" upper="0.401425727959" velocity="7.0"></limit>
+		<limit effort="3.1" lower="-1.16937059884" upper="0.471238898038" velocity="7.0"></limit>
 	</joint>
 	<joint name="bust_x" type="revolute">
 		<origin xyz="0 0 0" rpy="0 0 0"></origin>
@@ -334,14 +347,14 @@
 		<parent link="chest"></parent>
 		<child link="neck"></child>
 		<axis xyz="0 1 0"></axis>
-		<limit effort="1.8" lower="-1.74532925199" upper="1.74532925199" velocity="10.0"></limit>
+		<limit effort="1.8" lower="-1.57079632679" upper="1.57079632679" velocity="10.0"></limit>
 	</joint>
 	<joint name="head_y" type="revolute">
 		<origin xyz="0 0.0199999999999999 0" rpy="-0.349065850398866 0 0"></origin>
 		<parent link="neck"></parent>
 		<child link="head"></child>
 		<axis xyz="-1 0 0"></axis>
-		<limit effort="1.8" lower="-0.698131700798" upper="0.13962634016" velocity="10.0"></limit>
+		<limit effort="1.8" lower="-0.785398163397" upper="0.10471975512" velocity="10.0"></limit>
 	</joint>
 	<joint name="l_shoulder_y" type="revolute">
 		<origin xyz="0.0771000000000001 0.0499999999999999 0.00399999999999997" rpy="-1.5707963267949 0 0"></origin>
@@ -362,14 +375,14 @@
 		<parent link="l_shoulder_motor"></parent>
 		<child link="l_upper_arm"></child>
 		<axis xyz="0 1 0"></axis>
-		<limit effort="3.1" lower="-1.57079632679" upper="1.57079632679" velocity="7.0"></limit>
+		<limit effort="3.1" lower="-1.83259571459" upper="1.83259571459" velocity="7.0"></limit>
 	</joint>
 	<joint name="l_elbow_y" type="revolute">
 		<origin xyz="0 0.11175 -0.00999999999999998" rpy="0 0 0"></origin>
 		<parent link="l_upper_arm"></parent>
 		<child link="l_forearm"></child>
 		<axis xyz="1 0 0"></axis>
-		<limit effort="3.1" lower="-2.44346095279" upper="0.0" velocity="7.0"></limit>
+		<limit effort="3.1" lower="-2.58308729295" upper="0.0174532925199" velocity="7.0"></limit>
 	</joint>
 	<joint name="r_shoulder_y" type="revolute">
 		<origin xyz="-0.0770999999999999 0.0500000000000002 0.00400000000000003" rpy="-1.5707963267949 0 0"></origin>
@@ -390,13 +403,13 @@
 		<parent link="r_shoulder_motor"></parent>
 		<child link="r_upper_arm"></child>
 		<axis xyz="0 1 0"></axis>
-		<limit effort="3.1" lower="-1.57079632679" upper="1.57079632679" velocity="7.0"></limit>
+		<limit effort="3.1" lower="-1.83259571459" upper="1.83259571459" velocity="7.0"></limit>
 	</joint>
 	<joint name="r_elbow_y" type="revolute">
 		<origin xyz="0 0.11175 -0.01" rpy="0 0 0"></origin>
 		<parent link="r_upper_arm"></parent>
 		<child link="r_forearm"></child>
 		<axis xyz="-1 0 0"></axis>
-		<limit effort="3.1" lower="0.0" upper="2.56563400043" velocity="7.0"></limit>
-	</joint>
+		<limit effort="3.1" lower="-0.0174532925199" upper="2.58308729295" velocity="7.0"></limit>
+	</joint>	
 </robot>
