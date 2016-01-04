@@ -1,3 +1,4 @@
 include poppy_torso/media/sounds/error.wav
 include poppy_torso/configuration/*.json
 include poppy_torso/vrep-scene/*.ttt
+include poppy_torso/poppy_torso.urdf
