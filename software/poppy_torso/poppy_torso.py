@@ -4,6 +4,7 @@ import os
 from functools import partial
 
 from poppy.creatures import AbstractPoppyCreature
+from poppy.creatures.ik import IKChain
 
 from .primitives.safe import LimitTorque, TemperatureMonitor
 from .primitives.dance import SimpleBodyBeatMotion
@@ -23,6 +24,20 @@ class PoppyTorso(AbstractPoppyCreature):
             m.compliant_behavior = 'dummy'
             m.goto_behavior = 'minjerk'
 
+        # Add Kinematic chains for each arm
+        lc = IKChain.from_poppy_creature(robot,
+                                         motors=robot.torso + robot.l_arm,
+                                         passiv=robot.torso,
+                                         tip=[0, 0.18, 0])
+
+        rc = IKChain.from_poppy_creature(robot,
+                                         motors=robot.torso + robot.r_arm,
+                                         passiv=robot.torso,
+                                         tip=[0, 0.18, 0],
+                                         reversed_motors=[robot.r_shoulder_x])
+
+        robot.l_arm_chain = lc
+        robot.r_arm_chain = rc
 
         robot.attach_primitive(LimitTorque(robot, torque_max=80), 'limit_torque')
         #robot.limit_torque.start()
