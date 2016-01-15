@@ -42,11 +42,12 @@ class PoppyTorso(AbstractPoppyCreature):
         robot.attach_primitive(LimitTorque(robot, torque_max=80), 'limit_torque')
         #robot.limit_torque.start()
 
-        # Temperature monitoring
-        sound_file = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                  'media', 'sounds', 'error.wav')
-        robot.attach_primitive(TemperatureMonitor(robot, sound=sound_file), 'temperature_monitoring')
-        robot.temperature_monitoring.start()
+        # Temperature monitoring if not in vrep
+        if not robot.simulated:
+            sound_file = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                      'media', 'sounds', 'error.wav')
+            robot.attach_primitive(TemperatureMonitor(robot, sound=sound_file), 'temperature_monitoring')
+            robot.temperature_monitoring.start()
 
         robot.attach_primitive(SimpleBodyBeatMotion(robot, 50), 'dance_beat_motion')
 
