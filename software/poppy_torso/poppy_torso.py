@@ -22,7 +22,7 @@ class PoppyTorso(AbstractPoppyCreature):
             cls.vrep_hack(robot)
         for m in robot.motors:
             m.compliant_behavior = 'dummy'
-            m.goto_behavior = 'minjerk'
+            m.goto_behavior = 'dummy'
 
         # Add Kinematic chains for each arm
         lc = IKChain.from_poppy_creature(robot,
