@@ -1,9 +1,10 @@
 [submodule "hardware/robotis_library"]
 	path = hardware/robotis_library
-url=https://github.com/poppy-project/Robotis-library
+	url=https://github.com/poppy-project/Robotis-library
 [submodule "hardware/head"]
 	path = hardware/head
 	url = https://github.com/poppy-project/Poppy-minimal-head-design.git
+	branch = update_for_XU4
 [submodule "hardware/upper_limbs"]
 	path = hardware/upper_limbs
 	url = https://github.com/poppy-project/Poppy-basic-arms
