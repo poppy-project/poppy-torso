@@ -19,7 +19,7 @@ All the technological development work made in the Poppy project is freely avail
 | Logo  | [![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0/)  |[![GPL V3](https://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.html)  |
 
 
-**Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and [authors](doc/authors.md) when you use or fork this work.**
+**Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and [authors](https://github.com/poppy-project/poppy-humanoid/blob/master/doc/authors.md) when you use or fork this work.**
 
 
 
