@@ -104,7 +104,7 @@ Custom:
 
 ## Other
 
-- [100mm with lever arm suction pad](http://www.ventouses-soufflets.com/ventouses-avec-levier-d-appui/54-ventouse-100mm-avec-levier-d-appui-et-avec-patte-de-fixation-noire.html)
+- [100mm with lever arm suction pad](http://www.ventouses-soufflets.com/fr/ventouses-avec-levier-d-appui/54-ventouse-100mm-avec-levier-d-appui-et-avec-patte-de-fixation-noire.html)
 - 2x M5 nuts
 - 2X M5x20mm screws
 
