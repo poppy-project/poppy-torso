@@ -2,6 +2,9 @@
 [![PyPI](https://img.shields.io/pypi/v/poppy-torso.svg)](https://pypi.python.org/pypi/poppy-torso/)
 
 Poppy is an open source platform dedicated to the conception of animated robotic creature.
+
+<img src="doc/img/poppy_torso.jpg" height="500">
+
 The first and most advanced creature is the fully 3D printed [Poppy Humanoid](https://github.com/poppy-project/poppy-humanoid). Poppy Torso is actually the upper body of Poppy Humanoid with a specific part so it can be easily fixed on a table. 
 
 ## Presentation
@@ -21,6 +24,23 @@ All the technological development work made in the Poppy project is freely avail
 
 **Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and [authors](https://github.com/poppy-project/poppy-humanoid/blob/master/doc/authors.md) when you use or fork this work.**
 
+## Build your own Poppy Humanoid
+![](/doc/img/poppy_torso_3D.png)
+
+You can buy a complete kit on the [Génération  Robots website](http://www.generationrobots.com/en/281-robot-poppy-torso) for 5300€.
+
+You can also buy all components needed by your own. The full BOM is available here >> [Bill Of Material](hardware/doc/BOM.md).
+
+**The STL files are available in [the releases](https://github.com/poppy-project/poppy-torso/releases) of this repository.**
+
+Then the process to assemble a complete Poppy Torso takes about 5h for handyman people. Yet the skills required are very limited and should not be a problem for anyone able to hold a screwdriver.
+
+
+The assembly process is fully documented with video tutorials.
+### [Go to the Poppy Torso assembly documentation >>](hardware/doc/Poppy_Torso_assembly_instructions.md)
+
+## Documentation
+The full documentaiton of the project is available [here](http://docs.poppy-project.org/en/index.html).
 
 
 ## Support
