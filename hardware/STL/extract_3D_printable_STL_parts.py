@@ -58,6 +58,11 @@ HEAD_NAME_MAPPING = {
 }
 
 
+SUPPORT_PARTS_FOLDER = 'support'
+SUPPORT_NAME_MAPPING = {
+    'table_support_w_suction_pad-1': 'table_support',
+}
+
 def delete_stl_files(stl_folder_path, pattern_to_delete):
     exported_stl_files = os.listdir(stl_folder_path)
 
@@ -103,7 +108,7 @@ if __name__ == '__main__':
 
     rename_stl_files(stl_path, TRUNK_NAME_MAPPING, OUTPUT_STL_FOLDER, TRUNK_PARTS_FOLDER)
     rename_stl_files(stl_path, ARMS_NAME_MAPPING, OUTPUT_STL_FOLDER, ARMS_PARTS_FOLDER)
-    rename_stl_files(stl_path, LEGS_NAME_MAPPING, OUTPUT_STL_FOLDER, LEGS_PARTS_FOLDER)
     rename_stl_files(stl_path, HEAD_NAME_MAPPING, OUTPUT_STL_FOLDER, HEAD_PARTS_FOLDER)
+    rename_stl_files(stl_path, SUPPORT_NAME_MAPPING, OUTPUT_STL_FOLDER, SUPPORT_PARTS_FOLDER)
 
     delete_stl_files(stl_path, ['.STL', ])
