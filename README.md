@@ -1,28 +1,11 @@
 # Poppy Torso
 [![PyPI](https://img.shields.io/pypi/v/poppy-torso.svg)](https://pypi.python.org/pypi/poppy-torso/)
 
-Poppy is an open source platform dedicated to the conception of animated robotic creature.
-
-<img src="doc/img/poppy_torso.jpg" height="500">
-
-The first and most advanced creature is the fully 3D printed [Poppy Humanoid](https://github.com/poppy-project/poppy-humanoid). Poppy Torso is actually the upper body of Poppy Humanoid with a specific part so it can be easily fixed on a table. 
-
-## Presentation
-
 Poppy Torso is an open-source and 3D printed humanoid robot. Optimized for research and education purposes, its modularity allows for a wide range of applications and experimentations.
 
-### Open Source
+Poppy Torso is actually the upper body of [Poppy Humanoid](https://github.com/poppy-project/poppy-humanoid) with a specific part so it can be easily fixed on a table. 
 
-All the technological development work made in the Poppy project is freely available under open source licenses. Only the name usage *"Poppy"* is restricted and protected as an international trademark, please contact us if you want to use it or have more information.
-
-
-|   License     |     Hardware    |   Software      |
-| ------------- | :-------------: | :-------------: |
-| Title  | [Creatives Commons BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)  |[GPL v3](http://www.gnu.org/licenses/gpl.html)  |
-| Logo  | [![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0/)  |[![GPL V3](https://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.html)  |
-
-
-**Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and [authors](https://github.com/poppy-project/poppy-humanoid/blob/master/doc/authors.md) when you use or fork this work.**
+<img src="doc/img/poppy_torso.jpg" height="500">
 
 ## Build your own Poppy Humanoid
 ![](/doc/img/poppy_torso_3D.png)
@@ -37,14 +20,30 @@ Then the process to assemble a complete Poppy Torso takes about 5h for handyman 
 
 
 The assembly process is fully documented with video tutorials.
-### [Go to the Poppy Torso assembly documentation >>](hardware/doc/Poppy_Torso_assembly_instructions.md)
 
-## Documentation
-The full documentaiton of the project is available [here](http://docs.poppy-project.org/en/index.html).
+**For more informations, refer to the [assembly instructions](http://docs.poppy-project.org/en/assembly-guides/poppy-torso/index.html)**.
+
+### Install poppy-torso
+#### Install a Poppy board
+Poppy Humanoid is made to work with an Odroid U3 or an Odroid XU4. We provide our own [system image](https://github.com/poppy-project/poppy-humanoid/releases) (based on Ubuntu 14.04) that can be directly copied to the SD-card or MMC. You can refer to the [documentation](http://docs.poppy-project.org/en/installation/burn-an-image-file.html) for more details. Note that if you buy it as a kit from one of the reseller you will also get a pre-installed SD-card.
+
+
+You can also use our setup script directly on a Odroid based on Ubuntu or Debian. **Be aware tough that it takes some time and some good knowledge of Linux** This script is used to setup the Odroid to match our needs (custom Python, setup the web interface, a Poppy user...).
+```
+wget https://raw.githubusercontent.com/poppy-project/odroid-poppysetup/master/poppy_setup.sh -O poppy_setup.sh
+sudo bash poppy_setup.sh poppy-torso
+```
+**For more informations, refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/install-a-poppy-board.html)**.
+
+
+#### Install on your personnal computer
+If you want to install the software locally and not use the embedded board to control the robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-torso](https://github.com/poppy-project/poppy-torso/tree/master/software) package (the easiest way is with `pip install poppy-torso`). 
+
+**For more informations, refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/index.html)**.
 
 
 ## Support
-You need support ?
+[Documentation](http://docs.poppy-project.org/en/index.html) lacks something, you need support ?
 The [Poppy forum](https://forum.poppy-project.org) is the best (and single) place to ask for help !
 
 You can in particular check for the [Poppy Humanoid category](https://forum.poppy-project.org/c/poppy-creatures/humanoid).
@@ -67,6 +66,18 @@ Maybe the first step is to become a member of the community on the [poppy forum]
 
 For github ninja, you can of course fork this repository and open pull requests to propose your changes, or create issues to notify a problem.
 
+## License
+
+All the technological development work made in the Poppy project is freely available under open source licenses. Only the name usage *"Poppy"* is restricted and protected as an international trademark, please contact us if you want to use it or have more information.
+
+
+|   License     |     Hardware    |   Software      |
+| ------------- | :-------------: | :-------------: |
+| Title  | [Creatives Commons BY-SA](http://creativecommons.org/licenses/by-sa/4.0/)  |[GPL v3](http://www.gnu.org/licenses/gpl.html)  |
+| Logo  | [![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0/)  |[![GPL V3](https://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.html)  |
+
+
+**Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and [authors](https://github.com/poppy-project/poppy-humanoid/blob/master/doc/authors.md) when you use or fork this work.**
 
 ## The Poppy project history
 
@@ -81,6 +92,8 @@ This project is initially a fundamental research project financed by [ERC Grant 
 - [Website](https://www.poppy-project.org)
 - [Forum](https://forum.poppy-project.org)
 - [Twitter](https://twitter.com/poppy_project)
+- [Facebook](https://www.facebook.com/poppycommunity/)
 - [Flickr](https://www.flickr.com/photos/poppy-project)
+- [YouTube](https://www.youtube.com/channel/UC3iVGSr-vMgnFlIfPBH2p7Q)
 - [Vimeo](https://vimeo.com/poppyproject)
 - [Thingiverse](http://www.thingiverse.com/poppy_project/)
