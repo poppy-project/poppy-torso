@@ -20,6 +20,7 @@ Then the process to assemble a complete Poppy Torso takes about 5h for handyman 
 
 
 The assembly process is fully documented with video tutorials.
+
 **For more informations, refer to the [assembly instructions](http://docs.poppy-project.org/en/assembly-guides/poppy-torso/index.html)**.
 
 ### Install poppy-torso
