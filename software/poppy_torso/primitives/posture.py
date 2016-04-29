@@ -7,7 +7,9 @@ import pypot.primitive
 
 
 class InitPosition(pypot.primitive.Primitive):
-
+    '''
+    Simple primitive so Poppy Torso moves to an initial posture, ready for the show !
+    '''
     def run(self):
         self.robot.compliant = False
         self.robot.power_up()
