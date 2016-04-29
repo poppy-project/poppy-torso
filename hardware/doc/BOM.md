@@ -58,10 +58,6 @@
 - [Sparkfun Razor 9DoF IMU](https://www.sparkfun.com/products/10736) (Optionnal)
 - [Manga Screen](https://www.kickstarter.com/projects/1924187374/manga-screen-multi-touch-43-lcd) (Optionnal)
 
-
-### Custom
-TODO
-
 ----------
 
 
@@ -94,12 +90,6 @@ TODO
 - 1x Robot Cable-3P 140mm 10pcs
 - 1x Robot Cable-3P 200mm 10pcs
 
-Custom:
-- 3x cable-3P 22cm
-- 3x cable-3P 25cm
-- 2x cable-3P 50cm
-- 2x Cable-4P 200mm
-
 ----------
 
 ## Other
@@ -113,11 +103,11 @@ Custom:
 - 1x http://www.leroymerlin.fr/v3/p/produits/lot-de-6-mini-pinces-dexter-e148011
 - 1x http://www.leroymerlin.fr/v3/p/produits/set-de-micro-vissage-de-precision-mixte-dexter-e140690
 - 1x http://www.leroymerlin.fr/v3/p/produits/set-de-micro-vissage-de-precision-mixte-tivoly-11501570026-e59080
-- 2x frein fillet http://fr.farnell.com/jsp/search/productdetail.jsp?SKU=1370152
-- 3x clé allen 1.5 mm
-- 2x clé allen 2 mm
-- 1x clé allen 2.5mm
-- scotch blanc http://fr.farnell.com/jsp/search/productdetail.jsp?SKU=1825466
+- 2x threadlock http://fr.farnell.com/jsp/search/productdetail.jsp?SKU=1370152
+- 3x wrench key 1.5 mm
+- 2x wrench key 2 mm
+- 1x wrench key 2.5mm
+- white scotch  http://fr.farnell.com/jsp/search/productdetail.jsp?SKU=1825466
 
 
   [1]: http://www.hardkernel.com/main/products/prdt_info.php?g_code=G138745696275
