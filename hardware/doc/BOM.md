@@ -1,4 +1,4 @@
-# Poppy Torso 1.0
+# Poppy Torso 1.0.1
 
 ## 3D printing
 
@@ -36,13 +36,12 @@
 
 ### Embedded control
 - 1x USB2AX
-- [Hardkernel Odroid U3][1]
+- Hardkernel Odroid XU4
 - [8GB eMMC Module U Linux][2]
-- [Cooling Fan U3][4] (Optionnal)
 - USB hub: [here][7] ou [here][8]
 
 ### Power Supply
-- [DC Plug Cable Assembly 2.5mm][3]
+- DC Plug Cable Assembly for XU4
 - Robotis SMPS 12V 5A PS-10
 - [5V DC convertor][6]
 
