@@ -8,7 +8,7 @@ from poppy.creatures.ik import IKChain
 
 from .primitives.safe import LimitTorque, TemperatureMonitor
 from .primitives.dance import SimpleBodyBeatMotion
-#from .primitives.posture import StandPosition, SitPosition
+from .primitives.posture import InitPosition
 from .primitives.idle import UpperBodyIdleMotion, HeadIdleMotion
 from .primitives.interaction import ArmsTurnCompliant, PuppetMaster
 
@@ -50,6 +50,7 @@ class PoppyTorso(AbstractPoppyCreature):
             robot.temperature_monitoring.start()
 
         robot.attach_primitive(SimpleBodyBeatMotion(robot, 50), 'dance_beat_motion')
+        robot.attach_primitive(InitPosition(robot), 'init_position')
 
 
 
