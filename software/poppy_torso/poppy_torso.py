@@ -70,3 +70,7 @@ class PoppyTorso(AbstractPoppyCreature):
         for m in wrong_motor:
             m.direct = not m.direct
             m.offset = -m.offset
+            
+        # Fix bad motors orientation at startup (see #22)
+        for m in robot.motors:
+            m.goal_position = 0
