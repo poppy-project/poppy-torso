@@ -7,7 +7,7 @@ Poppy Torso is actually the upper body of [Poppy Humanoid](https://github.com/po
 
 <img src="doc/img/poppy_torso.jpg" height="500">
 
-## Build your own Poppy Humanoid
+## Build your own Poppy Torso
 ![](/doc/img/poppy_torso_3D.png)
 
 You can buy a complete kit on the [Génération  Robots website](http://www.generationrobots.com/en/281-robot-poppy-torso) for 5300€.
@@ -25,7 +25,7 @@ The assembly process is fully documented with video tutorials.
 
 ### Install poppy-torso
 #### Install a Poppy board
-Poppy Humanoid is made to work with an Odroid U3 or an Odroid XU4. We provide our own [system image](https://github.com/poppy-project/poppy-humanoid/releases) (based on Ubuntu 14.04) that can be directly copied to the SD-card or MMC. You can refer to the [documentation](http://docs.poppy-project.org/en/installation/burn-an-image-file.html) for more details. Note that if you buy it as a kit from one of the reseller you will also get a pre-installed SD-card.
+Poppy Humanoid is made to work with an Odroid U3 or an Odroid XU4. We provide our own [system image](https://github.com/poppy-project/poppy-torso/releases) (based on Ubuntu 14.04) that can be directly copied to the SD-card or MMC. You can refer to the [documentation](http://docs.poppy-project.org/en/installation/burn-an-image-file.html) for more details. Note that if you buy it as a kit from one of the reseller you will also get a pre-installed SD-card.
 
 
 You can also use our setup script directly on a Odroid based on Ubuntu or Debian. **Be aware tough that it takes some time and some good knowledge of Linux** This script is used to setup the Odroid to match our needs (custom Python, setup the web interface, a Poppy user...).
