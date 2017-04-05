@@ -15,12 +15,12 @@ requirements:
   build:
     - python
     - setuptools
-    - pypot >2.11
+    - pypot >3
     - poppy-creature >=1.8
 
   run:
     - python
-    - pypot >2.11
+    - pypot >3
     - poppy-creature >=1.8
     - opencv3
 
