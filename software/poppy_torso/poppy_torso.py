@@ -3,8 +3,8 @@ import os
 
 from functools import partial
 
-from poppy.creatures import AbstractPoppyCreature
-from poppy.creatures.ik import IKChain
+from pypot.creatures import AbstractPoppyCreature
+from pypot.creatures.ik import IKChain
 
 from .primitives.safe import LimitTorque, TemperatureMonitor
 from .primitives.dance import SimpleBodyBeatMotion
