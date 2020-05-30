@@ -20,7 +20,7 @@ setup(name='poppy-torso',
       version=version(),
       packages=find_packages(),
 
-      install_requires=['pypot >= 3.0'] + extra_packages,
+      install_requires=['pypot >= 3.0'],
 
       include_package_data=True,
       exclude_package_data={'': ['README', '.gitignore']},
