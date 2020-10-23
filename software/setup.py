@@ -5,11 +5,9 @@ import sys
 
 from setuptools import setup, find_packages
 
-
 def version():
     with open('poppy_torso/_version.py') as f:
         return re.search(r"^__version__ = ['\"]([^'\"]*)['\"]", f.read()).group(1)
-
 
 setup(name='poppy-torso',
       version=version(),
