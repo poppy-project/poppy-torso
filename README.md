@@ -1,7 +1,7 @@
 # Poppy Torso
 [![PyPI](https://img.shields.io/pypi/v/poppy-torso.svg)](https://pypi.python.org/pypi/poppy-torso/)
 
-Poppy Torso is an open-source and 3D printed humanoid robot. Optimized for research and education purposes, its modularity allows for a wide range of applications and experimentations.
+Poppy Torso is an open-source and 3D printed humanoid robot powered by Python 3 and Snap programming languages. Optimized for research and education purposes, its modularity allows for a wide range of applications and experimentations.
 
 Poppy Torso is actually the upper body of [Poppy Humanoid](https://github.com/poppy-project/poppy-humanoid) with a specific part so it can be easily fixed on a table. 
 
@@ -16,34 +16,24 @@ You can also buy all components needed by your own. The full BOM is available he
 
 **The STL files are available in [the releases](https://github.com/poppy-project/poppy-torso/releases) of this repository.**
 
-Then the process to assemble a complete Poppy Torso takes about 5h for handyman people. Yet the skills required are very limited and should not be a problem for anyone able to hold a screwdriver.
-
-
-The assembly process is fully documented with video tutorials.
+Then the process to assemble a complete Poppy Torso takes about a day. The assembly process is fully documented with video tutorials.
 
 **For more informations, refer to the [assembly instructions](http://docs.poppy-project.org/en/assembly-guides/poppy-torso/index.html)**.
 
 ### Install poppy-torso
 #### Install a Poppy board
-Poppy Humanoid is made to work with an Odroid U3 or an Odroid XU4. We provide our own [system image](https://github.com/poppy-project/poppy-torso/releases) (based on Ubuntu 14.04) that can be directly copied to the SD-card or MMC. You can refer to the [documentation](http://docs.poppy-project.org/en/installation/burn-an-image-file.html) for more details. Note that if you buy it as a kit from one of the reseller you will also get a pre-installed SD-card.
-
-
-You can also use our setup script directly on a Odroid based on Ubuntu or Debian. **Be aware tough that it takes some time and some good knowledge of Linux** This script is used to setup the Odroid to match our needs (custom Python, setup the web interface, a Poppy user...).
-```
-wget https://raw.githubusercontent.com/poppy-project/odroid-poppysetup/master/poppy_setup.sh -O poppy_setup.sh
-sudo bash poppy_setup.sh poppy-torso
-```
-**For more informations, refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/install-a-poppy-board.html)**.
+Poppy Humanoid is shipped with a Raspberry Pi. Older Odroid versions are available in the releases.
+In order to install the board byb yourself,**refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/install-a-poppy-board.html)**.
 
 
 #### Install on your personnal computer
-If you want to install the software locally and not use the embedded board to control the robot or if you are working with the simulator, you will have to install Python. We strongly recommand using a pre-packaged distribution as [Anaconda](http://continuum.io/downloads) and install the [poppy-torso](https://github.com/poppy-project/poppy-torso/tree/master/software) package (the easiest way is with `pip install poppy-torso`). 
+If you want to install the software locally and not use the embedded board to control the robot or if you are working with the simulator, you will have to install Python. Install [poppy-torso](https://github.com/poppy-project/poppy-torso/tree/master/software): simply type `pip install poppy-torso`. 
 
 **For more informations, refer to the [poppy documentation](http://docs.poppy-project.org/en/installation/index.html)**.
 
 
 ## Support
-[Documentation](http://docs.poppy-project.org/en/index.html) lacks something, you need support ?
+[Documentation](http://docs.poppy-project.org/en/index.html) lacks something, you need support?
 The [Poppy forum](https://forum.poppy-project.org) is the best (and single) place to ask for help !
 
 You can in particular check for the [Poppy Humanoid category](https://forum.poppy-project.org/c/poppy-creatures/humanoid).
