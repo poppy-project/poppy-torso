@@ -28,19 +28,21 @@ class PoppyTorso(AbstractPoppyCreature):
         lc = IKChain.from_poppy_creature(robot,
                                          motors=robot.torso + robot.l_arm,
                                          passiv=robot.torso,
-                                         tip=[0, 0.18, 0])
+                                         tip=[0, 0.18, 0],
+                                         name="l_arm_chain")
 
         rc = IKChain.from_poppy_creature(robot,
                                          motors=robot.torso + robot.r_arm,
                                          passiv=robot.torso,
                                          tip=[0, 0.18, 0],
-                                         reversed_motors=[robot.r_shoulder_x])
+                                         reversed_motors=[robot.r_shoulder_x],
+                                         name="r_arm_chain")
 
-        robot.l_arm_chain = lc
-        robot.r_arm_chain = rc
+        lc.register(robot)
+        rc.register(robot)
 
         robot.attach_primitive(LimitTorque(robot, torque_max=80), 'limit_torque')
-        #robot.limit_torque.start()
+        # robot.limit_torque.start()
 
         # Temperature monitoring if not in vrep
         if not robot.simulated:
@@ -51,8 +53,6 @@ class PoppyTorso(AbstractPoppyCreature):
 
         robot.attach_primitive(SimpleBodyBeatMotion(robot, 50), 'dance_beat_motion')
         robot.attach_primitive(InitPosition(robot), 'init_position')
-
-
 
         # Idle primitives
         robot.attach_primitive(UpperBodyIdleMotion(robot, 50), 'upper_body_idle_motion')
@@ -70,7 +70,7 @@ class PoppyTorso(AbstractPoppyCreature):
         for m in wrong_motor:
             m.direct = not m.direct
             m.offset = -m.offset
-            
+
         # Fix bad motors orientation at startup (see #22)
         for m in robot.motors:
             m.goal_position = 0
