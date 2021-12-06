@@ -12,7 +12,7 @@ Poppy Torso is actually the upper body of [Poppy Humanoid](https://github.com/po
 
 You can buy a complete kit on the [Génération  Robots website](http://www.generationrobots.com/en/281-robot-poppy-torso) for 5300€.
 
-You can also buy all components needed by your own. The full BOM is available here >> [Bill Of Material](hardware/doc/BOM.md).
+You can also buy all components needed by your own. The full BOM is available here >> [Bill Of Material](https://docs.poppy-project.org/en/assembly-guides/poppy-torso/bom.html).
 
 **The STL files are available in [the releases](https://github.com/poppy-project/poppy-torso/releases) of this repository.**
 
@@ -67,14 +67,14 @@ All the technological development work made in the Poppy project is freely avail
 | Logo  | [![Creative Commons BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0/)  |[![GPL V3](https://www.gnu.org/graphics/gplv3-88x31.png)](http://www.gnu.org/licenses/gpl.html)  |
 
 
-**Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and [authors](https://github.com/poppy-project/poppy-humanoid/blob/master/doc/authors.md) when you use or fork this work.**
+**Please keep references to the [Poppy project (www.poppy-project.org)](https://www.poppy-project.org/) and the its contributors when you use or fork this work.**
 
 ## The Poppy project history
 
 The Poppy project is born in 2012 in the [Flowers laboratory](https://flowers.inria.fr/) at [Inria Bordeaux Sud-Ouest](http://www.inria.fr/en/centre/bordeaux).
 It was initiated during [Matthieu Lapeyre](https://github.com/matthieu-lapeyre)'s PhD Thesis surpervised by [Pierre Yves Oudeyer](http://www.pyoudeyer.com/). At the beginning, the development team was composed by [Matthieu Lapeyre](https://github.com/matthieu-lapeyre) (mechanics & design), [Pierre Rouanet](https://github.com/pierre-rouanet) (software) and [Jonathan Grizou](http://jgrizou.com/) (electronics).
 
-This project is initially a fundamental research project financed by [ERC Grant Explorer](http://erc.europa.eu/) to explore the role of embodiement and morphology properties on cognition and especially on the learning of sensori-motor tasks.
+This project is initially a fundamental research project financed by [ERC Grant Explorer](http://erc.europa.eu/) to explore the role of embodiement and morphology properties on cognition and especially on the learning of sensori-motor tasks. It is now hosted by the [Poppy Station non-profit](https://www.poppy-station.org/en).
 
 
 ### More on the project
