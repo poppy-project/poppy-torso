@@ -49,12 +49,12 @@
       "orientation": "direct"
     },
     "head_y": {
-      "offset": 20.0,
+      "offset": -25.0,
       "type": "AX-12",
       "id": 37,
       "angle_limit": [
-        -40,
-        8
+        0,
+        50
       ],
       "orientation": "indirect"
     },
